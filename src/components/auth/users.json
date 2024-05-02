@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Lewis sparkman",
+      "profileImg": "",
+      "cardName": "Lewis sparkman",
+      "username": "mattinamarion1234",
+      "password": "Noles@224",
+      "checkingAmount": "800,000.00",
+      "checkingAccountNo": "...9998",
+      "createdOn": "d/m/y"
+    }
+  ]
+}

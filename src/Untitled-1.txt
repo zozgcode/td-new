@@ -1,0 +1,40 @@
+<div className="flex items-end justify-end w-[45%] relative">
+                <div className="bg-white absolute top-[33px]">
+                  <button
+                    className="p-2 border border-white outline-none px-5 text-[13px] sm:text-[15px] text-[#2d1a47]"
+                    onClick={handleLogout}
+                  >
+                    SIGN OUT
+                  </button>
+                </div>
+                {/* <FaRegCircleUser className="text-[32px]" onClick={toggle} />
+                {hide && (
+                  <div className="bg-white absolute top-[33px]">
+                    <button
+                      className="p-2 border border-white outline-none px-5 text-[13px] sm:text-[15px] text-[#2d1a47]"
+                      onClick={handleLogout}
+                    >
+                      SIGN OUT
+                    </button>
+                  </div>
+                )} */}
+              </div>
+
+
+              <p className="flex flex-col gap-1 text-white">
+                <div className="flex items-center gap-3">
+                  <span className="text-[20px]">Hello,</span>
+                  {user.profileImg && (
+                    <Image
+                      src={user.profileImg}
+                      className="w-[45px] h-[45px] rounded-full"
+                      width={150}
+                      height={150}
+                      alt="user_avatar"
+                    />
+                  )}
+                </div>
+                <span className="text-xl sm:text-2xl font-semibold">
+                  {user.name}
+                </span>
+              </p>
