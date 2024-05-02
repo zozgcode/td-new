@@ -133,7 +133,12 @@ export const LewisSparkmanTxData = [
       {
         txName: "DDA WITHDRAW AP TW04C884 574 US 27 SUITE 623 LADY LAKES *FL",
         whatUsed: "Debit",
-        amount: "-$1000.00",
+        amount: "-$1,000.00",
+      },
+      {
+        txName: "DDA WITHDRAW AP TW04C884 574 US 27 SUITE 623 LADY LAKES *FL",
+        whatUsed: "Debit",
+        amount: "-$1,000.00",
       },
     ],
   },
