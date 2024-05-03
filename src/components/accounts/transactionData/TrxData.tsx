@@ -425,4 +425,34 @@ export const LewisSparkmanHistoryTxData = [
       },
     ],
   },
+  {
+    date: "Mar 10, 2024",
+    children: [
+      {
+        txName: "DDA WITHDRAW AP TW04C884 574 US 27 SUITE 623 LADY LAKES *FL",
+        whatUsed: "Debit",
+        amount: "-$1,300.00",
+      },
+      {
+        txName: "DDA PURCHASE AP 2874092 BJS WHOLESALE 224248 N LADY LAKES *FL",
+        whatUsed: "Debit",
+        amount: "-$750.23",
+      },
+    ],
+  },
+  {
+    date: "Mar 9, 2024",
+    children: [
+      {
+        txName: "DEPOSIT",
+        whatUsed: "Credit",
+        amount: "$5,000.00",
+      },
+      {
+        txName: "ATM CHECK DEPOSIT TW04C884 574 US 27 SUITE 623 LADY LAKES *FL ",
+        whatUsed: "Credit",
+        amount: "$0.01",
+      },
+    ],
+  },
 ];
