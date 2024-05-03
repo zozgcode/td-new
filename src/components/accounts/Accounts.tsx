@@ -7,6 +7,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { FiFileText } from "react-icons/fi";
 import { HiMiniArrowsUpDown } from "react-icons/hi2";
+import { SiZelle } from "react-icons/si";
+import { MdOutlineCreditScore } from "react-icons/md";
 
 export default function Dashboard() {
   const [user, setUser] = useState<any>(null);
@@ -59,24 +61,31 @@ export default function Dashboard() {
               </div>
             </div>
             <div className="flex items-center justify-evenly gap-5 mx-auto max-w-max mt-5">
-              {/* <div className="flex items-center justify-center flex-col gap-2">
-                <Link href="" className="border w-[80px] h-[80px] flex items-center justify-center flex-col rounded-full">
-                  <Image src="https://i.imgur.com/FNY8KMz.png" width={100} height={100} className="w-[35px]" alt="sjssj" />
-                </Link>
-                <span className="text-sm font-semibold text-white">ZELLE</span>
-              </div> */}
               <div className="flex items-center justify-center flex-col gap-2">
-                <Link href="/accounts/billpay" className="border text-[#d6d6d6] text-[30px] w-[70px] h-[70px] flex items-center justify-center flex-col rounded-full">
-                  <FiFileText />
-                </Link>
-                <span className="text-sm font-semibold text-white">PAY A BILL</span>
+                <div className="border text-[#d6d6d6] text-[24px] sm:text-[30px] w-[60px] sm:w-[70px] h-[60px] sm:h-[70px] flex items-center justify-center flex-col rounded-full">
+                  {/* <Image src="https://i.imgur.com/FNY8KMz.png" width={100} height={100} className="w-[35px]" alt="sjssj" /> */}
+                  <SiZelle />
+                </div>
+                <span className="text-[12px] sm:text-sm font-semibold text-white">ZELLE</span>
               </div>
               <div className="flex items-center justify-center flex-col gap-2">
-                <Link href="/accounts/pay-transfer" className="border text-[#d6d6d6] text-[30px] w-[70px] h-[70px] flex items-center justify-center flex-col rounded-full">
-                  {/* <Image src="https://i.imgur.com/krvE0l8.png" width={100} height={100} className="w-[35px]" alt="sjssj" /> */}
+                <Link href="/accounts/billpay" className="border text-[#d6d6d6] text-[24px] sm:text-[30px] w-[60px] sm:w-[70px] h-[60px] sm:h-[70px] flex items-center justify-center flex-col rounded-full">
+                  <FiFileText />
+                </Link>
+                <span className="text-[12px] sm:text-sm font-semibold text-white">PAY A BILL</span>
+              </div>
+              <div className="flex items-center justify-center flex-col gap-2">
+                <Link href="/accounts/pay-transfer" className="border text-[#d6d6d6] text-[24px] sm:text-[30px] w-[60px] sm:w-[70px] h-[60px] sm:h-[70px] flex items-center justify-center flex-col rounded-full">
                   <HiMiniArrowsUpDown />
                 </Link>
-                <span className="text-sm font-semibold text-white">TRANSFER</span>
+                <span className="text-[12px] sm:text-sm font-semibold text-white">TRANSFER</span>
+              </div>
+              <div className="flex items-center relative top-[10px] justify-between flex-col gap-2">
+                <div className="border text-[#d6d6d6] text-[24px] sm:text-[30px] w-[60px] sm:w-[70px] h-[60px] sm:h-[70px] flex items-center justify-center flex-col rounded-full">
+                  {/* <Image src="https://i.imgur.com/nlORTs2.png" width={100} height={100} className="w-[25px] sm:w-[35px]" alt="sjssj" /> */}
+                  <MdOutlineCreditScore />
+                </div>
+                <span className="text-[12px] sm:text-sm font-semibold text-white text-center">CARD <br /> MANAGER</span>
               </div>
             </div>
           </div>
