@@ -261,7 +261,7 @@ export const LewisSparkmanHistoryTxData = [
     ],
   },
   {
-    date: "Apr 12, 2024",
+    date: "Apr 11, 2024",
     children: [
       {
         txName: "DEPOSIT",
@@ -292,6 +292,51 @@ export const LewisSparkmanHistoryTxData = [
         txName: "DDA PURCHASE AP 770446 SAVE A LOT 61237 WILDWOOD *FL",
         whatUsed: "Debit",
         amount: "-$7.71",
+      },
+    ],
+  },
+  {
+    date: "Apr 1, 2024",
+    children: [
+      {
+        txName: "NONTD ATM FEE",
+        whatUsed: "Debit",
+        amount: "-$3.00",
+      },
+      {
+        txName: "DDA PURCHASE AP 770446 SAVE A LOT 61237 WILDWOOD *FL",
+        whatUsed: "Debit",
+        amount: "-$4.99",
+      },
+      {
+        txName: "DDA WITHDRAW AP WW778348 WW778348 THE VILLAGES *FL",
+        whatUsed: "Debit",
+        amount: "-$23.50",
+      },
+    ],
+  },
+  {
+    date: "Mar 29, 2024",
+    children: [
+      {
+        txName: "VISA DDA PUR AP 469216 CIRCLE K 07067 THE VILLAGES *FL",
+        whatUsed: "Debit",
+        amount: "-$50.00",
+      },
+    ],
+  },
+  {
+    date: "Mar 28, 2024",
+    children: [
+      {
+        txName: "NONTD ATM FEE",
+        whatUsed: "Debit",
+        amount: "-$3.00",
+      },
+      {
+        txName: "DDA WITHDRAW AP WW778348 WW778348 THE VILLAGES *FL",
+        whatUsed: "Debit",
+        amount: "-$103.50",
       },
     ],
   },
