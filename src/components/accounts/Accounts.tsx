@@ -92,11 +92,10 @@ export default function Dashboard() {
 
           {/* <TransactionHistory /> */}
           <div className="">
-            <div className="text-[#048204] bg-white font-semibold flex items-center justify-between rounded p-3 py-4 text-[18px] w-full">
-              <span>Activity</span>
-              {/* <Link className="text-sky-500 underline" href="/accounts/transactions">
-          See all
-        </Link> */}
+            <div className="text-[#048204] font-semibold flex items-center justify-between rounded text-[18px] w-full">
+              <div className="bg-white p-5 py-4">Activity</div>
+              <div className="p-5 py-4 text-[#424242]">Details</div>
+              <div className="p-5 py-4 text-[#424242]">Documents</div>
             </div>
             <div className="flex flex-col">
               {user.id === 1 && <LewisSparkman />}
