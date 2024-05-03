@@ -16,14 +16,14 @@ export default function LewisSparkman() {
       )}
       {topTxData.map((txt, i) => (
         <div key={i} className="w-full text-zinc-800">
-          <div className="p-5 text-[17px] font-semibold">{txt.date}</div>
+          <div className="p-5 text-[16px] font-semibold">{txt.date}</div>
           <ul className="flex flex-col">
             {txt.children.map((item, itemIndex) => (
               <div
                 key={itemIndex}
                 className="border text-[#424242] font-semibold bg-white p-5 flex items-center justify-between"
               >
-                <p className="max-w-[250px] text-[18px] font-semibold">
+                <p className="max-w-[250px] text-[16px] font-semibold">
                   {item.txName}
                 </p>
                 <p className="text-[18px]">{item.amount}</p>
