@@ -9,6 +9,7 @@ import { FiFileText } from "react-icons/fi";
 import { HiMiniArrowsUpDown } from "react-icons/hi2";
 import { SiZelle } from "react-icons/si";
 import { MdOutlineCreditScore } from "react-icons/md";
+import { RiLogoutCircleRLine } from "react-icons/ri";
 
 export default function Dashboard() {
   const [user, setUser] = useState<any>(null);
@@ -44,8 +45,9 @@ export default function Dashboard() {
       {user && (
         <div className="w-full">
           <div className="p-5 pt-1 pb-10 bg-[#048204]">
-            <header className="py-4 mb-6 text-white w-full">
+            <header className="py-4 mb-6 text-white w-full flex justify-between items-center">
               <h2 className="text-[18px] font-semibold">Bank Account</h2>
+              <RiLogoutCircleRLine className="text-[25px]" onClick={handleLogout} />
             </header>
             <div className="flex text-[#f0f0f0] mx-auto max-w-[400px] text-center text-[18px] flex-col gap-1">
               <p>AVAILABLE BALANCE</p>
