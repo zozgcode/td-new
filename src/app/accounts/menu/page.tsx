@@ -5,6 +5,7 @@ import React from "react";
 import { IoIosArrowBack } from "react-icons/io";
 import { moreLinks } from "./links";
 import { useRouter } from "next/navigation";
+import { RiLogoutCircleRLine } from "react-icons/ri";
 
 export default function MorePage() {
   const router = useRouter();
@@ -23,24 +24,25 @@ export default function MorePage() {
         </Link>
         <span className="text-white text-lg font-semibold">Menu</span>
       </div>
-      <div className="mt-5">
-        <p className="px-5 text-base font-semibold">Useful Links</p>
+      <div className="">
+        {/* <p className="px-5 text-base font-semibold">Useful Links</p> */}
 
-        <div className="w-full mt-5 bg-white h-screen">
+        <div className="w-full bg-white h-screen">
           {moreLinks.map((link, i) => (
             <Link
               key={i}
               href={link.slug}
-              className="flex items-center text-base font-semibold gap-2 text-[#2f5e80] p-4 px-5 border-b border-gray-400"
+              className="flex items-center text-base font-semibold gap-2 text-[#048204] p-4 px-5 border-b border-gray-400"
             >
               <span>{link.icon}</span>
               <span>{link.label}</span>
             </Link>
           ))}
           <li
-            className="text-base font-semibold gap-2 text-[#2f5e80] p-4 px-5 border-b border-gray-400"
+            className="text-base font-semibold list-none flex items-center gap-2 text-[#048204] p-4 px-5 border-b border-gray-400"
             onClick={handleLogout}
           >
+            <RiLogoutCircleRLine />
             SIGN OUT
           </li>
         </div>

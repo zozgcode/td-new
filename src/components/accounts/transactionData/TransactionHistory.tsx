@@ -33,19 +33,19 @@ export default function TransactionHistory() {
             <div>
               {LewisSparkmanHistoryTxData.map((txt, i) => (
                 <div key={i} className="w-full text-zinc-800">
-                  <div className="p-5 text-[17px] font-semibold">
+                  <div className="p-5 py-3 text-[17px] font-semibold">
                     {txt.date}
                   </div>
                   <ul className="flex flex-col">
                     {txt.children.map((item, itemIndex) => (
                       <div
                         key={itemIndex}
-                        className="border text-[#424242] font-semibold bg-white p-5 flex items-center justify-between"
+                        className="border text-[#424242] font-semibold bg-white p-5 py-3 flex items-center justify-between"
                       >
                         <p className="max-w-[250px] text-[18px] font-semibold">
                           {item.txName}
                         </p>
-                        <p className={`text-[18px] ${item.whatUsed === "Credit" && "text-[#048204]"}`}>{item.amount}</p>
+                        <p className={`text-[18px] ${item.whatUsed === "Credit" && "text-[#048204] font-bold"}`}>{item.amount}</p>
                       </div>
                     ))}
                   </ul>

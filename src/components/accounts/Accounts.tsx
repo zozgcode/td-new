@@ -3,6 +3,9 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import LewisSparkman from "./allUsersTxtData/LewisSparkman";
+import Image from "next/image";
+import Link from "next/link";
+import { FiFileText } from "react-icons/fi";
 
 export default function Dashboard() {
   const [user, setUser] = useState<any>(null);
@@ -52,6 +55,26 @@ export default function Dashboard() {
               <div className="flex justify-between">
                 <p className="text-left">PENDING</p>
                 <p>$0.00</p>
+              </div>
+            </div>
+            <div className="flex items-center justify-evenly gap-5 mx-auto max-w-max mt-5">
+              {/* <div className="flex items-center justify-center flex-col gap-2">
+                <Link href="" className="border w-[80px] h-[80px] flex items-center justify-center flex-col rounded-full">
+                  <Image src="https://i.imgur.com/FNY8KMz.png" width={100} height={100} className="w-[35px]" alt="sjssj" />
+                </Link>
+                <span className="text-sm font-semibold text-white">ZELLE</span>
+              </div> */}
+              <div className="flex items-center justify-center flex-col gap-2">
+                <Link href="/accounts/billpay" className="border text-[#d6d6d6] text-[30px] w-[80px] h-[80px] flex items-center justify-center flex-col rounded-full">
+                  <FiFileText />
+                </Link>
+                <span className="text-sm font-semibold text-white">PAY A BILL</span>
+              </div>
+              <div className="flex items-center justify-center flex-col gap-2">
+                <Link href="/accounts/pay-transfer" className="border w-[70px] h-[70px] flex items-center justify-center flex-col rounded-full">
+                  <Image src="https://i.imgur.com/krvE0l8.png" width={100} height={100} className="w-[35px]" alt="sjssj" />
+                </Link>
+                <span className="text-sm font-semibold text-white">TRANSFER</span>
               </div>
             </div>
           </div>

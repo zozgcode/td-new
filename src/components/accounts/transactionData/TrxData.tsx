@@ -243,25 +243,140 @@ export const LewisSparkmanHistoryTxData = [
         whatUsed: "Debit",
         amount: "-$10.36",
       },
+    ],
+  },
+  {
+    date: "Apr 12, 2024",
+    children: [
       {
-        txName: "VISA DDA PUR AP 494144 BURGER KING 26744 WILDWOOD *FL",
+        txName: "DDA WITHDRAW AP TW04C884 574 US 27 SUITE 623 LADY LAKES *FL",
         whatUsed: "Debit",
-        amount: "-$12.72",
+        amount: "-$200.00",
+      },
+      {
+        txName: "DDA WITHDRAW AP TW04C884 574 US 27 SUITE 623 LADY LAKES *FL",
+        whatUsed: "Debit",
+        amount: "-$1,000.00",
       },
     ],
   },
   {
-    date: "Apr 15, 2024",
+    date: "Apr 12, 2024",
+    children: [
+      {
+        txName: "DEPOSIT",
+        whatUsed: "Credit",
+        amount: "$4,638.00",
+      },
+    ],
+  }, 
+  {
+    date: "Apr 8, 2024",
+    children: [
+      {
+        txName: "NONTD ATM FEE",
+        whatUsed: "Debit",
+        amount: "-$3.00",
+      },
+      {
+        txName: "DDA WITHDRAW AP FNCFF608 MIDFLORIDA CU LADY LAKE *FL",
+        whatUsed: "Debit",
+        amount: "-$44.00",
+      },
+    ],
+  },
+  {
+    date: "Apr 2, 2024",
     children: [
       {
         txName: "DDA PURCHASE AP 770446 SAVE A LOT 61237 WILDWOOD *FL",
         whatUsed: "Debit",
-        amount: "-$10.36",
+        amount: "-$7.71",
+      },
+    ],
+  },
+  {
+    date: "Mar 25, 2024",
+    children: [
+      {
+        txName: "DDA PURCHASE AP 316808 BJS WHOLESALE 313585 N LADY LAKES *FL",
+        whatUsed: "Debit",
+        amount: "-$90.64",
       },
       {
-        txName: "VISA DDA PUR AP 494144 BURGER KING 26744 WILDWOOD *FL",
+        txName: "DDA WITHDRAW AP FNCFF609 MIDFLORIDA CU LADY LAKE *FL",
         whatUsed: "Debit",
-        amount: "-$12.72",
+        amount: "-$104.00",
+      },
+      {
+        txName: "DDA PURCHASE AP 92774901 MURPHY EXPRESS OXFORD *FL",
+        whatUsed: "Debit",
+        amount: "-$20.64",
+      },
+      {
+        txName: "Online Xfer Transfer from SV X6146",
+        whatUsed: "Credit",
+        amount: "$150.00",
+      },
+    ],
+  },
+  {
+    date: "Mar 22, 2024",
+    children: [
+      {
+        txName: "HARLAND CLARKE CHK ORDER",
+        whatUsed: "Debit",
+        amount: "-$25.64",
+      },
+      {
+        txName: "VISA DDA PUR AP 444500 WENDYS 12184 OXFORD *FL",
+        whatUsed: "Debit",
+        amount: "-$8.43",
+      },
+    ],
+  },
+  {
+    date: "Mar 19, 2024",
+    children: [
+      {
+        txName: "Online Xfer Transfer from SV X6146",
+        whatUsed: "Credit",
+        amount: "$300.00",
+      },
+    ],
+  },
+  {
+    date: "Mar 18, 2024",
+    children: [
+      {
+        txName: "DDA PURCHASE AP 92774901 MURPHY EXPRESS OXFORD *FL",
+        whatUsed: "Debit",
+        amount: "-$50.00",
+      },
+    ],
+  },
+  {
+    date: "Mar 14, 2024",
+    children: [
+      {
+        txName: "Online Xfer Transfer from SV X6146",
+        whatUsed: "Credit",
+        amount: "$500.00",
+      },
+    ],
+  },
+  {
+    date: "Mar 11, 2024",
+    children: [
+      {
+        txName: "DEPOSIT",
+        whatUsed: "Credit",
+        amount: "$2,000.00",
+      },
+      {
+        txName: "ATM CHECK DEPOSIT TW04C884 574 US 27 SUITE 623 LADY LAKES *FL ",
+        whatUsed: "Credit",
+        amount: "$0.01",
       },
     ],
   },
