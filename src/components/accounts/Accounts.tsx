@@ -6,6 +6,7 @@ import LewisSparkman from "./allUsersTxtData/LewisSparkman";
 import Image from "next/image";
 import Link from "next/link";
 import { FiFileText } from "react-icons/fi";
+import { HiMiniArrowsUpDown } from "react-icons/hi2";
 
 export default function Dashboard() {
   const [user, setUser] = useState<any>(null);
@@ -65,14 +66,15 @@ export default function Dashboard() {
                 <span className="text-sm font-semibold text-white">ZELLE</span>
               </div> */}
               <div className="flex items-center justify-center flex-col gap-2">
-                <Link href="/accounts/billpay" className="border text-[#d6d6d6] text-[30px] w-[80px] h-[80px] flex items-center justify-center flex-col rounded-full">
+                <Link href="/accounts/billpay" className="border text-[#d6d6d6] text-[30px] w-[70px] h-[70px] flex items-center justify-center flex-col rounded-full">
                   <FiFileText />
                 </Link>
                 <span className="text-sm font-semibold text-white">PAY A BILL</span>
               </div>
               <div className="flex items-center justify-center flex-col gap-2">
-                <Link href="/accounts/pay-transfer" className="border w-[70px] h-[70px] flex items-center justify-center flex-col rounded-full">
-                  <Image src="https://i.imgur.com/krvE0l8.png" width={100} height={100} className="w-[35px]" alt="sjssj" />
+                <Link href="/accounts/pay-transfer" className="border text-[#d6d6d6] text-[30px] w-[70px] h-[70px] flex items-center justify-center flex-col rounded-full">
+                  {/* <Image src="https://i.imgur.com/krvE0l8.png" width={100} height={100} className="w-[35px]" alt="sjssj" /> */}
+                  <HiMiniArrowsUpDown />
                 </Link>
                 <span className="text-sm font-semibold text-white">TRANSFER</span>
               </div>
