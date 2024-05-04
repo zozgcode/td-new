@@ -51,11 +51,11 @@ export default function Dashboard() {
             </header>
             <div className="flex text-[#f0f0f0] mx-auto max-w-[400px] text-center text-[18px] flex-col gap-1">
               <p>AVAILABLE BALANCE</p>
-              <p className="font-bold text-[#ffffff] text-[45px]">$36.07</p>
+              <p className="font-bold text-[#ffffff] text-[45px]">${user.checkingAmount}</p>
               <p>TD CONVENIENCE CHECKING x6862</p>
               <div className="flex justify-between mt-[10px]">
                 <p className="text-left">TODAY&apos;S BEGINNING BALANCE</p>
-                <p>$36.07</p>
+                <p>${user.checkingAmount}</p>
               </div>
               <div className="flex justify-between">
                 <p className="text-left">PENDING</p>

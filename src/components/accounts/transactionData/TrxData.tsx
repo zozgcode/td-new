@@ -123,6 +123,16 @@ export const TestingTxData = [
 
 export const LewisSparkmanTxData = [
   {
+    date: "May 3, 2024",
+    children: [
+      {
+        txName: "MAINTENANCE FEE",
+        whatUsed: "Debit",
+        amount: "-$15.00",
+      },
+    ],
+  },
+  {
     date: "Apr 29, 2024",
     children: [
       {
@@ -145,6 +155,16 @@ export const LewisSparkmanTxData = [
 ];
 
 export const LewisSparkmanHistoryTxData = [
+  {
+    date: "May 3, 2024",
+    children: [
+      {
+        txName: "MAINTENANCE FEE",
+        whatUsed: "Debit",
+        amount: "-$15.00",
+      },
+    ],
+  },
   {
     date: "Apr 29, 2024",
     children: [

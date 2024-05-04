@@ -1,13 +1,12 @@
 "use client";
 
 import React from "react";
-// import { TbArrowBackUpDouble, TbArrowForwardUpDouble } from "react-icons/tb";
 import { LewisSparkmanTxData } from "../transactionData/TrxData";
 import Link from "next/link";
 
 export default function LewisSparkman() {
-  const topTxData = LewisSparkmanTxData.slice(0, 1); // Fetching only the first seven transactions
-  const moreThan = LewisSparkmanTxData.flatMap(data => data.children).length > 1; // Check if there are more than 7 transactions in total
+  const topTxData = LewisSparkmanTxData.slice(0, 2);
+  const moreThan = LewisSparkmanTxData.flatMap(data => data.children).length > 2;
 
   return (
     <>
